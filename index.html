@@ -3,9 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS HW1</title>
+    <title>JS HW8. Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <script type="module" src="./js/gallery.js" defer></script>
+    <main>
+      <ul class="gallery"></ul>
+    </main>
+    <div class="signature-container">
+      <a
+        href="http://instagram.com/veretnov.m.a"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><img
+          class="signature-img"
+          src="./images/signature.webp
+            "
+          alt="Developer's signature"
+          width="150"
+        />
+        <p class="signature-text">created by Maksym Veretnov</p></a
+      >
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"
+      async
+    ></script>
+    <script type="module" src="./js/gallery.js"></script>
   </body>
 </html>
